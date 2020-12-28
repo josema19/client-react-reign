@@ -1,0 +1,68 @@
+/* Estilos para el Alert */
+.alert-container {
+    background-color: #ff0000;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+/*Estilos para el Header*/
+.header-info {
+    align-content: center;
+    background: #333333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: center;
+}
+
+.header-title {
+    font-size: 50px;
+    margin: 0 auto 0 25px;
+    letter-spacing: 3px;
+}
+
+.header-subtitle {
+    margin: 0 auto 0 25px;
+    font-size: 18px;
+}
+
+/*Estilos para los artículos*/
+.articles-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+}
+
+.articles-container:hover {
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+.articles-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.article-title,
+.article-time {
+    margin: auto 25px;
+    color: #333;
+    font-size: 13px;
+}
+
+.article-author {
+    margin-left: 10px;
+    color: #999;
+}
+
+.time-trash-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 25px;
+}
